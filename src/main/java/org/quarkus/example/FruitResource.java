@@ -9,6 +9,7 @@ import org.eclipse.microprofile.config.inject.ConfigProperty;
 
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Optional;
 import java.util.Set;
 
 @Path("/fruits")
@@ -21,7 +22,7 @@ public class FruitResource {
     String message;
 
     @ConfigProperty(name="greeting.owner")
-    String owner;
+    Optional<String> owner;
 
     public FruitResource(){
         fruits.add(new Fruit("Apple", "Winter fruit"));

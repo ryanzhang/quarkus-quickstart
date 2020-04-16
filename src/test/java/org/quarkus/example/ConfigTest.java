@@ -1,10 +1,15 @@
 package org.quarkus.example;
 
+import org.apache.commons.io.IOUtils;
 import org.eclipse.microprofile.config.ConfigProvider;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
 
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.util.Optional;
 
 import io.quarkus.runtime.LaunchMode;
@@ -51,5 +56,15 @@ public class ConfigTest {
   void checkLaunchMode(){
     assertThat(LaunchMode.current().name()).isEqualToIgnoringCase("test");
     log.info(LaunchMode.current().name());
+  }
+
+  @Test
+  void loadResourceFile() throws IOException{
+    InputStream config_inputstream = getClass().getClassLoader().getResourceAsStream("database-config.json");
+    assertThat( IOUtils.toString(config_inputstream, StandardCharsets.UTF_8.name())).contains("h2");
+
+    InputStream xml_inputstream = getClass().getClassLoader().getResourceAsStream("another-config.xml");
+    assertThat( IOUtils.toString(xml_inputstream, StandardCharsets.UTF_8.name())).contains("Don't forget");
+    
   }
 }
