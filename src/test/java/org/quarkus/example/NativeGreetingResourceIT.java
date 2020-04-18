@@ -17,6 +17,7 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.io.File;
+import static org.hamcrest.Matcher.*;
 
 @NativeImageTest
 @Slf4j
@@ -27,6 +28,10 @@ public class NativeGreetingResourceIT extends GreetingResource {
         given()
             .when().get("/config")
             .then()
-            .statusCode(200);
+            .log().body()
+            .statusCode(200).assertThat()
+            .body("$.name", is("h2"),
+                "$.url", is("jdbc://localhost")
+            );
     }
 }

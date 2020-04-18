@@ -15,6 +15,8 @@ import java.util.Optional;
 import io.quarkus.runtime.LaunchMode;
 import io.quarkus.test.junit.QuarkusTest;
 import lombok.extern.slf4j.Slf4j;
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
 
 @QuarkusTest
 @Slf4j
@@ -67,4 +69,15 @@ public class ConfigTest {
     assertThat( IOUtils.toString(xml_inputstream, StandardCharsets.UTF_8.name())).contains("Don't forget");
     
   }
+    @Test
+    void checkConfigEndpoint(){
+        given()
+            .when().get("/config")
+            .then()
+            .log().body()
+            .statusCode(200).assertThat()
+            .body("name", is("h2"),
+                "url", is("jdbc://localhost")
+            );
+    }  
 }
