@@ -3,13 +3,17 @@ package org.acme.quarkus.multipart;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
+
+import io.quarkus.test.junit.QuarkusTest;
+
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.CoreMatchers.*;
 
+@QuarkusTest
 public class MultipartClientTest {
 
   @Test
-  void echoEndpoint(){
+  void echoEndpoint() throws InterruptedException{
     assertTrue(
       given().log().all()
         .when()

@@ -4,11 +4,13 @@ import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import io.quarkus.test.junit.QuarkusTest;
+
 // import lombok.extern.slf4j.Slf4j;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.CoreMatchers.is;
 
-// @Slf4j
+@QuarkusTest
 public class CountryResourceTest {
   private static final Logger log = LoggerFactory.getLogger(CountryResourceTest.class.getName());
   @Test
