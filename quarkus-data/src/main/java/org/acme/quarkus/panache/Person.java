@@ -37,12 +37,12 @@ public class Person extends PanacheEntity{
     ALIVE,HAPPY,MARRIED;
   }
 
-  /**
-   * @return the name
-   */
-  public String getName() {
-    return name;
-  }
+/**
+ * @return the name
+ */
+public String getName() {
+  return name;
+}
 
 
   /**

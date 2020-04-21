@@ -4,6 +4,10 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
+## 如何启动infinispan服务器
+ Running with Podman `podman run -it -p 11222:11222 -e USER="Titus Bramble" -e PASS="Shambles" infinispan/server:latest`
+
+ 请使用root用户启动
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:

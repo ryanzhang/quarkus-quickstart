@@ -40,9 +40,9 @@ private static final Logger log = LoggerFactory.getLogger(HibernateSearchTest.cl
     
   }
   @Test
-  public void update2(){
-    Author author = new Author("Sant", "Clouf"); 
-    
+  public void update2() {
+    Author author = new Author("Sant", "Clouf");
+
     // Author.persist(new );
   }
   

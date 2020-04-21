@@ -18,6 +18,7 @@ public class InitiaData {
     Person.persist(new Person("ZhangSan", LocalDateTime.of(2010, 1, 8, 0, 0, 0), Person.Status.HAPPY));
     Person.persist(new Person("LiSi", LocalDateTime.of(2012, 12, 8, 0, 0, 0), Person.Status.HAPPY));
     
+
   }
 
 }
