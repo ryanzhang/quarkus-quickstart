@@ -1,0 +1,215 @@
+__  ____  __  _____   ___  __ ____  ______ 
+ --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
+ -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
+--\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
+2020-04-23 14:21:29,109 DEBUG [org.jbo.logging] (main) Logging Provider: org.jboss.logging.JBossLogManagerProvider
+2020-04-23 14:21:29,258 DEBUG [io.qua.arc.impl] (main) ArC DI container initialized [beans=12, observers=0]
+2020-04-23 14:21:29,298 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.sse.SseEventOutputProvider()
+2020-04-23 14:21:29,301 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.sse.SseEventOutputProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,306 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.sse.SseEventOutputProvider()
+2020-04-23 14:21:29,306 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.sse.SseEventOutputProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,311 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.DefaultTextPlain()
+2020-04-23 14:21:29,311 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.DefaultTextPlain and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,312 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.DefaultTextPlain()
+2020-04-23 14:21:29,312 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.DefaultTextPlain and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,313 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.DefaultTextPlain()
+2020-04-23 14:21:29,313 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.DefaultTextPlain and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,313 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.DefaultTextPlain()
+2020-04-23 14:21:29,313 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.DefaultTextPlain and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,314 DEBUG [io.qua.res.runtime] (main) Create constructor: public io.quarkus.resteasy.runtime.vertx.JsonObjectWriter()
+2020-04-23 14:21:29,314 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class io.quarkus.resteasy.runtime.vertx.JsonObjectWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,315 DEBUG [io.qua.res.runtime] (main) Create constructor: public io.quarkus.resteasy.runtime.vertx.JsonObjectWriter()
+2020-04-23 14:21:29,315 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class io.quarkus.resteasy.runtime.vertx.JsonObjectWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,316 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.ReactiveStreamProvider()
+2020-04-23 14:21:29,316 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.ReactiveStreamProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,317 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.interceptors.CacheControlFeature()
+2020-04-23 14:21:29,317 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.interceptors.CacheControlFeature and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,318 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.interceptors.CacheControlFeature()
+2020-04-23 14:21:29,318 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.interceptors.CacheControlFeature and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,320 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.interceptors.ServerContentEncodingAnnotationFeature()
+2020-04-23 14:21:29,320 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.interceptors.ServerContentEncodingAnnotationFeature and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,321 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.CompletionStageProvider()
+2020-04-23 14:21:29,321 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.CompletionStageProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,321 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.interceptors.ClientContentEncodingAnnotationFeature()
+2020-04-23 14:21:29,321 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.interceptors.ClientContentEncodingAnnotationFeature and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,322 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.DefaultNumberWriter()
+2020-04-23 14:21:29,322 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.DefaultNumberWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,322 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.DefaultNumberWriter()
+2020-04-23 14:21:29,322 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.DefaultNumberWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,324 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.FileProvider()
+2020-04-23 14:21:29,324 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.FileProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,324 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.FileProvider()
+2020-04-23 14:21:29,324 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.FileProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,324 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.FileProvider()
+2020-04-23 14:21:29,324 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.FileProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,324 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.FileProvider()
+2020-04-23 14:21:29,324 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.FileProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,325 DEBUG [io.qua.res.runtime] (main) Create constructor: public io.quarkus.resteasy.runtime.ForbiddenExceptionMapper()
+2020-04-23 14:21:29,325 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class io.quarkus.resteasy.runtime.ForbiddenExceptionMapper and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,329 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.MultiValuedParamConverterProvider()
+2020-04-23 14:21:29,329 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.MultiValuedParamConverterProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,332 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.ByteArrayProvider()
+2020-04-23 14:21:29,332 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.ByteArrayProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,332 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.ByteArrayProvider()
+2020-04-23 14:21:29,332 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.ByteArrayProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,332 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.ByteArrayProvider()
+2020-04-23 14:21:29,332 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.ByteArrayProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,332 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.ByteArrayProvider()
+2020-04-23 14:21:29,332 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.ByteArrayProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,333 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.DefaultBooleanWriter()
+2020-04-23 14:21:29,333 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.DefaultBooleanWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,333 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.DefaultBooleanWriter()
+2020-04-23 14:21:29,333 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.DefaultBooleanWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,334 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.StringTextStar()
+2020-04-23 14:21:29,334 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.StringTextStar and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,334 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.StringTextStar()
+2020-04-23 14:21:29,334 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.StringTextStar and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,335 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.StringTextStar()
+2020-04-23 14:21:29,335 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.StringTextStar and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,335 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.StringTextStar()
+2020-04-23 14:21:29,335 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.StringTextStar and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,335 DEBUG [io.qua.res.runtime] (main) Create constructor: public io.quarkus.resteasy.runtime.vertx.JsonArrayWriter()
+2020-04-23 14:21:29,335 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class io.quarkus.resteasy.runtime.vertx.JsonArrayWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,336 DEBUG [io.qua.res.runtime] (main) Create constructor: public io.quarkus.resteasy.runtime.vertx.JsonArrayWriter()
+2020-04-23 14:21:29,336 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class io.quarkus.resteasy.runtime.vertx.JsonArrayWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,337 DEBUG [io.qua.res.runtime] (main) Create constructor: public io.quarkus.resteasy.runtime.UnauthorizedExceptionMapper()
+2020-04-23 14:21:29,337 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class io.quarkus.resteasy.runtime.UnauthorizedExceptionMapper and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,338 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.StreamingOutputProvider()
+2020-04-23 14:21:29,338 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.StreamingOutputProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,338 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.StreamingOutputProvider()
+2020-04-23 14:21:29,338 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.StreamingOutputProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,339 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.ReaderProvider()
+2020-04-23 14:21:29,339 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.ReaderProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,339 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.ReaderProvider()
+2020-04-23 14:21:29,339 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.ReaderProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,339 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.ReaderProvider()
+2020-04-23 14:21:29,339 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.ReaderProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,339 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.ReaderProvider()
+2020-04-23 14:21:29,339 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.ReaderProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,343 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.DataSourceProvider()
+2020-04-23 14:21:29,343 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.DataSourceProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,343 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.DataSourceProvider()
+2020-04-23 14:21:29,343 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.DataSourceProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,343 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.DataSourceProvider()
+2020-04-23 14:21:29,343 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.DataSourceProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,343 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.DataSourceProvider()
+2020-04-23 14:21:29,343 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.DataSourceProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,344 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.AsyncStreamingOutputProvider()
+2020-04-23 14:21:29,344 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.AsyncStreamingOutputProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,344 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.AsyncStreamingOutputProvider()
+2020-04-23 14:21:29,344 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.AsyncStreamingOutputProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,345 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.FileRangeWriter()
+2020-04-23 14:21:29,345 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.FileRangeWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,346 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.FileRangeWriter()
+2020-04-23 14:21:29,346 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.FileRangeWriter and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,346 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.InputStreamProvider()
+2020-04-23 14:21:29,346 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.InputStreamProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,346 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.InputStreamProvider()
+2020-04-23 14:21:29,346 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.InputStreamProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,346 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.InputStreamProvider()
+2020-04-23 14:21:29,347 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.InputStreamProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,347 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.InputStreamProvider()
+2020-04-23 14:21:29,347 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.InputStreamProvider and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,368 DEBUG [io.qua.res.runtime] (main) Create resource constructor: public org.acme.quarkus.GreetingResource()
+2020-04-23 14:21:29,373 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.providers.sse.SseEventSinkInterceptor()
+2020-04-23 14:21:29,373 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.providers.sse.SseEventSinkInterceptor and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,374 DEBUG [io.qua.res.runtime] (main) Create constructor: public org.jboss.resteasy.plugins.interceptors.MessageSanitizerContainerResponseFilter()
+2020-04-23 14:21:29,374 DEBUG [io.qua.arc.run.ArcRecorder] (main) No matching bean found for type class org.jboss.resteasy.plugins.interceptors.MessageSanitizerContainerResponseFilter and qualifiers []. The bean might have been marked as unused and removed during build.
+2020-04-23 14:21:29,376 DEBUG [io.qua.res.runtime] (main) Create resource constructor: public org.acme.quarkus.GreetingResource()
+2020-04-23 14:21:29,397 DEBUG [io.net.uti.int.log.InternalLoggerFactory] (Thread-0) Using SLF4J as the default logging framework
+2020-04-23 14:21:29,414 DEBUG [io.net.uti.int.PlatformDependent0] (Thread-0) -Dio.netty.noUnsafe: false
+2020-04-23 14:21:29,414 DEBUG [io.net.uti.int.PlatformDependent0] (Thread-0) Java version: 11
+2020-04-23 14:21:29,415 DEBUG [io.net.uti.int.PlatformDependent0] (Thread-0) sun.misc.Unsafe.theUnsafe: available
+2020-04-23 14:21:29,415 DEBUG [io.net.uti.int.PlatformDependent0] (Thread-0) sun.misc.Unsafe.copyMemory: available
+2020-04-23 14:21:29,415 DEBUG [io.net.uti.int.PlatformDependent0] (Thread-0) java.nio.Buffer.address: available
+2020-04-23 14:21:29,416 DEBUG [io.net.uti.int.PlatformDependent0] (Thread-0) direct buffer constructor: unavailable: java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:225)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:219)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:273)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.channel.DefaultChannelId.defaultProcessId(DefaultChannelId.java:112)
+	at io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:77)
+	at io.quarkus.netty.runtime.NettyRecorder$1.run(NettyRecorder.java:25)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020-04-23 14:21:29,416 DEBUG [io.net.uti.int.PlatformDependent0] (Thread-0) java.nio.Bits.unaligned: available, true
+2020-04-23 14:21:29,418 DEBUG [io.net.uti.int.PlatformDependent0] (Thread-0) jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @7f8273ba
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:361)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:591)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:558)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:335)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:326)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:273)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.channel.DefaultChannelId.defaultProcessId(DefaultChannelId.java:112)
+	at io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:77)
+	at io.quarkus.netty.runtime.NettyRecorder$1.run(NettyRecorder.java:25)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020-04-23 14:21:29,418 DEBUG [io.net.uti.int.PlatformDependent0] (Thread-0) java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2020-04-23 14:21:29,418 DEBUG [io.net.uti.int.PlatformDependent] (Thread-0) sun.misc.Unsafe: available
+2020-04-23 14:21:29,433 DEBUG [io.net.uti.int.PlatformDependent] (Thread-0) maxDirectMemory: 16852713472 bytes (maybe)
+2020-04-23 14:21:29,433 DEBUG [io.net.uti.int.PlatformDependent] (Thread-0) -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2020-04-23 14:21:29,433 DEBUG [io.net.uti.int.PlatformDependent] (Thread-0) -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-23 14:21:29,434 DEBUG [io.net.uti.int.PlatformDependent] (Thread-0) -Dio.netty.maxDirectMemory: -1 bytes
+2020-04-23 14:21:29,434 DEBUG [io.net.uti.int.PlatformDependent] (Thread-0) -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-23 14:21:29,435 DEBUG [io.net.uti.int.CleanerJava9] (Thread-0) java.nio.ByteBuffer.cleaner(): available
+2020-04-23 14:21:29,435 DEBUG [io.net.uti.int.PlatformDependent] (Thread-0) -Dio.netty.noPreferDirect: false
+2020-04-23 14:21:29,456 DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.1.Final
+2020-04-23 14:21:29,461 TRACE [org.jbo.threads] (main) Changed uncaught exception handler for "Thread[executor-thread-1,5,executor]" to org.jboss.threads.LoggingUncaughtExceptionHandler@34f7cfd9 to "org.jboss.executor.uncaught"
+2020-04-23 14:21:29,461 TRACE [org.jbo.threads] (main) Started thread "Thread[executor-thread-1,5,executor]"
+2020-04-23 14:21:29,461 TRACE [org.jbo.threads] (executor-thread-1) Thread "Thread[executor-thread-1,5,executor]" starting execution
+2020-04-23 14:21:29,463 DEBUG [io.net.cha.DefaultChannelId] (Thread-0) -Dio.netty.processId: 98136 (auto-detected)
+2020-04-23 14:21:29,465 DEBUG [io.net.uti.NetUtil] (Thread-0) -Djava.net.preferIPv4Stack: false
+2020-04-23 14:21:29,465 DEBUG [io.net.uti.NetUtil] (Thread-0) -Djava.net.preferIPv6Addresses: false
+2020-04-23 14:21:29,467 DEBUG [io.net.uti.NetUtil] (Thread-0) Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2020-04-23 14:21:29,467 DEBUG [io.net.uti.NetUtil] (Thread-0) /proc/sys/net/core/somaxconn: 4096
+2020-04-23 14:21:29,477 DEBUG [io.net.cha.DefaultChannelId] (Thread-0) -Dio.netty.machineId: d4:25:8b:ff:fe:f0:51:7c (auto-detected)
+2020-04-23 14:21:29,578 DEBUG [io.net.uti.ResourceLeakDetector] (main) -Dio.netty.leakDetection.level: simple
+2020-04-23 14:21:29,578 DEBUG [io.net.uti.ResourceLeakDetector] (main) -Dio.netty.leakDetection.targetRecords: 4
+2020-04-23 14:21:29,586 DEBUG [io.net.uti.int.InternalThreadLocalMap] (main) -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-23 14:21:29,586 DEBUG [io.net.uti.int.InternalThreadLocalMap] (main) -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-23 14:21:29,591 DEBUG [io.net.cha.MultithreadEventLoopGroup] (main) -Dio.netty.eventLoopThreads: 16
+2020-04-23 14:21:29,608 DEBUG [io.net.cha.nio.NioEventLoop] (main) -Dio.netty.noKeySetOptimization: false
+2020-04-23 14:21:29,608 DEBUG [io.net.cha.nio.NioEventLoop] (main) -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-04-23 14:21:29,613 DEBUG [io.net.uti.int.PlatformDependent] (main) org.jctools-core.MpscChunkedArrayQueue: available
+2020-04-23 14:21:29,616 TRACE [io.net.cha.nio.NioEventLoop] (main) instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@7dfd3c81
+2020-04-23 14:21:29,623 TRACE [io.net.cha.nio.NioEventLoop] (main) instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@7dfb0c0f
+2020-04-23 14:21:29,623 TRACE [io.net.cha.nio.NioEventLoop] (main) instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@626abbd0
+2020-04-23 14:21:29,624 TRACE [io.net.cha.nio.NioEventLoop] (main) instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@169bb4dd
+2020-04-23 14:21:29,624 TRACE [io.net.cha.nio.NioEventLoop] (main) instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1f9e9475
+2020-04-23 14:21:29,624 TRACE [io.net.cha.nio.NioEventLoop] (main) instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@3aa078fd
+2020-04-23 14:21:29,624 TRACE [io.net.cha.nio.NioEventLoop] (main) instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@d23e042
+2020-04-23 14:21:29,624 TRACE [io.net.cha.nio.NioEventLoop] (main) instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@46d59067
+2020-04-23 14:21:29,625 TRACE [io.net.cha.nio.NioEventLoop] (main) instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@2d0399f4
+2020-04-23 14:21:29,625 TRACE [io.net.cha.nio.NioEventLoop] (main) instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@14dd7b39
+2020-04-23 14:21:29,625 TRACE [io.net.cha.nio.NioEventLoop] (main) instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@66ea810
+2020-04-23 14:21:29,625 TRACE [io.net.cha.nio.NioEventLoop] (main) instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@6cd24612
+2020-04-23 14:21:29,626 TRACE [io.net.cha.nio.NioEventLoop] (main) instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@5dafbe45
+2020-04-23 14:21:29,626 TRACE [io.net.cha.nio.NioEventLoop] (main) instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@2254127a
+2020-04-23 14:21:29,626 TRACE [io.net.cha.nio.NioEventLoop] (main) instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@51891008
+2020-04-23 14:21:29,626 TRACE [io.net.cha.nio.NioEventLoop] (main) instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@2f953efd
+2020-04-23 14:21:29,627 TRACE [io.net.cha.nio.NioEventLoop] (main) instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@2d29b4ee
+2020-04-23 14:21:29,652 DEBUG [io.qua.ver.cor.run.VertxCoreRecorder] (main) Vertx has Native Transport Enabled: false
+2020-04-23 14:21:29,720 DEBUG [io.net.buf.PooledByteBufAllocator] (vert.x-eventloop-thread-15) -Dio.netty.allocator.numHeapArenas: 16
+2020-04-23 14:21:29,720 DEBUG [io.net.buf.PooledByteBufAllocator] (vert.x-eventloop-thread-15) -Dio.netty.allocator.numDirectArenas: 16
+2020-04-23 14:21:29,720 DEBUG [io.net.buf.PooledByteBufAllocator] (vert.x-eventloop-thread-15) -Dio.netty.allocator.pageSize: 8192
+2020-04-23 14:21:29,720 DEBUG [io.net.buf.PooledByteBufAllocator] (vert.x-eventloop-thread-15) -Dio.netty.allocator.maxOrder: 1
+2020-04-23 14:21:29,720 DEBUG [io.net.buf.PooledByteBufAllocator] (vert.x-eventloop-thread-15) -Dio.netty.allocator.chunkSize: 16384
+2020-04-23 14:21:29,720 DEBUG [io.net.buf.PooledByteBufAllocator] (vert.x-eventloop-thread-15) -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-23 14:21:29,720 DEBUG [io.net.buf.PooledByteBufAllocator] (vert.x-eventloop-thread-15) -Dio.netty.allocator.smallCacheSize: 256
+2020-04-23 14:21:29,721 DEBUG [io.net.buf.PooledByteBufAllocator] (vert.x-eventloop-thread-15) -Dio.netty.allocator.normalCacheSize: 64
+2020-04-23 14:21:29,721 DEBUG [io.net.buf.PooledByteBufAllocator] (vert.x-eventloop-thread-15) -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-23 14:21:29,721 DEBUG [io.net.buf.PooledByteBufAllocator] (vert.x-eventloop-thread-15) -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-23 14:21:29,721 DEBUG [io.net.buf.PooledByteBufAllocator] (vert.x-eventloop-thread-15) -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-04-23 14:21:29,721 DEBUG [io.net.buf.PooledByteBufAllocator] (vert.x-eventloop-thread-15) -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-23 14:21:29,721 DEBUG [io.net.buf.PooledByteBufAllocator] (vert.x-eventloop-thread-15) -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-04-23 14:21:29,758 DEBUG [io.net.buf.ByteBufUtil] (vert.x-eventloop-thread-15) -Dio.netty.allocator.type: pooled
+2020-04-23 14:21:29,758 DEBUG [io.net.buf.ByteBufUtil] (vert.x-eventloop-thread-15) -Dio.netty.threadLocalDirectBufferSize: 0
+2020-04-23 14:21:29,759 DEBUG [io.net.buf.ByteBufUtil] (vert.x-eventloop-thread-15) -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-04-23 14:21:29,774 INFO  [io.quarkus] (main) quarkus-diving 1.0-SNAPSHOT (powered by Quarkus 1.3.2.Final) started in 0.736s. Listening on: http://0.0.0.0:8080
+2020-04-23 14:21:29,775 INFO  [io.quarkus] (main) Profile prod activated. 
+2020-04-23 14:21:29,775 INFO  [io.quarkus] (main) Installed features: [cdi, resteasy]
