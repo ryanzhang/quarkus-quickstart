@@ -1,5 +1,7 @@
 # kafka-quickstart project
 ## quakus kafka例子
+Get a fat jar
+mvn package -DuberJar=true -DskipTests
 
 ## 启动kafka
 ```bash
