@@ -4,6 +4,10 @@
 ```bash
 ./start_prometheus_podman.sh
 ```
+或者
+```
+cp /software/prometheus/prometheus.yml /tmp && sudo podman run  -p 127.0.0.1:9090:9090 -v /tmp/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
+
 启动Prometheus需要定义个需要监控的应用配置文件
 ```yaml
 scrape_configs:
